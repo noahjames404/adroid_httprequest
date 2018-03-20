@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.anonimouse.companyproject1.Activity.connect_registration">
+
+    <include layout="@layout/toolbar_search"/>
+
+    <EditText
+        android:id="@+id/input_firstname"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="first name"
+        android:gravity="center"/>
+
+    <com.anonimouse.companyproject1.Design.TextAwesome
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fa_users"
+        android:textSize="30dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/input_middlename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="middle name"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/input_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="last name"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="register"/>
+
+</LinearLayout>
